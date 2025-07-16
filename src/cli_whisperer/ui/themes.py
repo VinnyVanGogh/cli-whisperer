@@ -348,39 +348,16 @@ RecordingControls {
     content-align: center middle;
 }
 
-/* CSS Pulse Animations */
-@keyframes pulse {
-    0%, 100% {
-        opacity: 1;
-        box-shadow: 0 0 5px #FF00A0;
-    }
-    50% {
-        opacity: 0.7;
-        box-shadow: 0 0 20px #FF00A0, 0 0 30px #FF00A0;
-    }
-}
-
-@keyframes subtle-glow {
-    0%, 100% {
-        box-shadow: 0 0 5px #FF00A0;
-    }
-    50% {
-        box-shadow: 0 0 15px #FF00A0;
-    }
-}
-
+/* Visual State Indicators (Textual Compatible) */
 .pulsing {
-    animation: pulse 1.5s ease-in-out infinite;
     border: solid #FF00A0;
 }
 
 .transcribing {
-    animation: subtle-glow 2s ease-in-out infinite;
     border: solid #FF00A0;
 }
 
 .formatting {
-    animation: subtle-glow 2s ease-in-out infinite;
     border: solid #FF00A0;
 }
 """)
@@ -694,39 +671,16 @@ RecordingControls {
     content-align: center middle;
 }
 
-/* CSS Pulse Animations */
-@keyframes pulse {
-    0%, 100% {
-        opacity: 1;
-        box-shadow: 0 0 5px #00F0FF;
-    }
-    50% {
-        opacity: 0.7;
-        box-shadow: 0 0 20px #00F0FF, 0 0 30px #00F0FF;
-    }
-}
-
-@keyframes subtle-glow {
-    0%, 100% {
-        box-shadow: 0 0 5px #00F0FF;
-    }
-    50% {
-        box-shadow: 0 0 15px #00F0FF;
-    }
-}
-
+/* Visual State Indicators (Textual Compatible) */
 .pulsing {
-    animation: pulse 1.5s ease-in-out infinite;
     border: solid #00F0FF;
 }
 
 .transcribing {
-    animation: subtle-glow 2s ease-in-out infinite;
     border: solid #00F0FF;
 }
 
 .formatting {
-    animation: subtle-glow 2s ease-in-out infinite;
     border: solid #00F0FF;
 }
 """)
@@ -1039,39 +993,16 @@ RecordingControls {
     content-align: center middle;
 }
 
-/* CSS Pulse Animations */
-@keyframes pulse {
-    0%, 100% {
-        opacity: 1;
-        box-shadow: 0 0 5px #1E90FF;
-    }
-    50% {
-        opacity: 0.7;
-        box-shadow: 0 0 20px #1E90FF, 0 0 30px #1E90FF;
-    }
-}
-
-@keyframes subtle-glow {
-    0%, 100% {
-        box-shadow: 0 0 5px #1E90FF;
-    }
-    50% {
-        box-shadow: 0 0 15px #1E90FF;
-    }
-}
-
+/* Visual State Indicators (Textual Compatible) */
 .pulsing {
-    animation: pulse 1.5s ease-in-out infinite;
     border: solid #1E90FF;
 }
 
 .transcribing {
-    animation: subtle-glow 2s ease-in-out infinite;
     border: solid #1E90FF;
 }
 
 .formatting {
-    animation: subtle-glow 2s ease-in-out infinite;
     border: solid #1E90FF;
 }
 """)
@@ -1384,39 +1315,16 @@ RecordingControls {
     content-align: center middle;
 }
 
-/* CSS Pulse Animations */
-@keyframes pulse {
-    0%, 100% {
-        opacity: 1;
-        box-shadow: 0 0 5px #8B9DC3;
-    }
-    50% {
-        opacity: 0.7;
-        box-shadow: 0 0 20px #8B9DC3, 0 0 30px #8B9DC3;
-    }
-}
-
-@keyframes subtle-glow {
-    0%, 100% {
-        box-shadow: 0 0 5px #8B9DC3;
-    }
-    50% {
-        box-shadow: 0 0 15px #8B9DC3;
-    }
-}
-
+/* Visual State Indicators (Textual Compatible) */
 .pulsing {
-    animation: pulse 1.5s ease-in-out infinite;
     border: solid #8B9DC3;
 }
 
 .transcribing {
-    animation: subtle-glow 2s ease-in-out infinite;
     border: solid #8B9DC3;
 }
 
 .formatting {
-    animation: subtle-glow 2s ease-in-out infinite;
     border: solid #8B9DC3;
 }
 """)
@@ -1729,39 +1637,16 @@ RecordingControls {
     content-align: center middle;
 }
 
-/* CSS Pulse Animations */
-@keyframes pulse {
-    0%, 100% {
-        opacity: 1;
-        box-shadow: 0 0 5px #2563EB;
-    }
-    50% {
-        opacity: 0.7;
-        box-shadow: 0 0 20px #2563EB, 0 0 30px #2563EB;
-    }
-}
-
-@keyframes subtle-glow {
-    0%, 100% {
-        box-shadow: 0 0 5px #2563EB;
-    }
-    50% {
-        box-shadow: 0 0 15px #2563EB;
-    }
-}
-
+/* Visual State Indicators (Textual Compatible) */
 .pulsing {
-    animation: pulse 1.5s ease-in-out infinite;
     border: solid #2563EB;
 }
 
 .transcribing {
-    animation: subtle-glow 2s ease-in-out infinite;
     border: solid #2563EB;
 }
 
 .formatting {
-    animation: subtle-glow 2s ease-in-out infinite;
     border: solid #2563EB;
 }
 """)
@@ -2075,39 +1960,16 @@ RecordingControls {
     content-align: center middle;
 }
 
-/* CSS Pulse Animations */
-@keyframes pulse {
-    0%, 100% {
-        opacity: 1;
-        box-shadow: 0 0 5px #FFFFFF;
-    }
-    50% {
-        opacity: 0.7;
-        box-shadow: 0 0 20px #FFFFFF, 0 0 30px #FFFFFF;
-    }
-}
-
-@keyframes subtle-glow {
-    0%, 100% {
-        box-shadow: 0 0 5px #FFFFFF;
-    }
-    50% {
-        box-shadow: 0 0 15px #FFFFFF;
-    }
-}
-
+/* Visual State Indicators (Textual Compatible) */
 .pulsing {
-    animation: pulse 1.5s ease-in-out infinite;
     border: solid #FFFFFF;
 }
 
 .transcribing {
-    animation: subtle-glow 2s ease-in-out infinite;
     border: solid #FFFFFF;
 }
 
 .formatting {
-    animation: subtle-glow 2s ease-in-out infinite;
     border: solid #FFFFFF;
 }
 """)
@@ -2421,39 +2283,16 @@ RecordingControls {
     content-align: center middle;
 }
 
-/* CSS Pulse Animations */
-@keyframes pulse {
-    0%, 100% {
-        opacity: 1;
-        box-shadow: 0 0 5px #FF0080;
-    }
-    50% {
-        opacity: 0.7;
-        box-shadow: 0 0 20px #FF0080, 0 0 30px #FF0080;
-    }
-}
-
-@keyframes subtle-glow {
-    0%, 100% {
-        box-shadow: 0 0 5px #FF0080;
-    }
-    50% {
-        box-shadow: 0 0 15px #FF0080;
-    }
-}
-
+/* Visual State Indicators (Textual Compatible) */
 .pulsing {
-    animation: pulse 1.5s ease-in-out infinite;
     border: solid #FF0080;
 }
 
 .transcribing {
-    animation: subtle-glow 2s ease-in-out infinite;
     border: solid #FF0080;
 }
 
 .formatting {
-    animation: subtle-glow 2s ease-in-out infinite;
     border: solid #FF0080;
 }
 """)
@@ -2767,39 +2606,16 @@ RecordingControls {
     content-align: center middle;
 }
 
-/* CSS Pulse Animations */
-@keyframes pulse {
-    0%, 100% {
-        opacity: 1;
-        box-shadow: 0 0 5px #FF6B9D;
-    }
-    50% {
-        opacity: 0.7;
-        box-shadow: 0 0 20px #FF6B9D, 0 0 30px #FF6B9D;
-    }
-}
-
-@keyframes subtle-glow {
-    0%, 100% {
-        box-shadow: 0 0 5px #FF6B9D;
-    }
-    50% {
-        box-shadow: 0 0 15px #FF6B9D;
-    }
-}
-
+/* Visual State Indicators (Textual Compatible) */
 .pulsing {
-    animation: pulse 1.5s ease-in-out infinite;
     border: solid #FF6B9D;
 }
 
 .transcribing {
-    animation: subtle-glow 2s ease-in-out infinite;
     border: solid #FF6B9D;
 }
 
 .formatting {
-    animation: subtle-glow 2s ease-in-out infinite;
     border: solid #FF6B9D;
 }
 """)
