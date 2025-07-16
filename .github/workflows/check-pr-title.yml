@@ -1,0 +1,24 @@
+name: Check Pull Request Title
+
+on:
+  pull_request:
+    types: [opened, edited]
+
+jobs:
+  check_pr_title_and_checkboxes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate PR Title and Mandatory Checkboxes (if Feature/Fix)
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const prTitle = context.payload.pull_request.title.toLowerCase();
+            const prBody = (context.payload.pull_request.body || "").toLowerCase();
+
+            const isFeature = prTitle.startsWith("add feature: ");
+            const isFix = prTitle.startsWith("fix: ");
+            const isChore = prTitle.startsWith("chore: ");
+
+            if (!(isFeature || isFix || isChore)) {
+              throw new Error('Invalid PR title. Use "Add feature: [Feature Name]", "Fix: [Bug Description]", or "Chore: [Description]".');
+            }
