@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-07-16T14:39:02.725611",
+  "current_branch": "main",
+  "commit_hash": "8b892f16f0f74c2d7763a0189b8ffd658776294d",
+  "tags": [
+    "v0.2.5",
+    "v1.0.0"
+  ],
+  "uncommitted_changes": {
+    "staged_files": [
+      {
+        "status": "M",
+        "file": "src/cli_whisperer/__init__.py"
+      },
+      {
+        "status": "M",
+        "file": "src/cli_whisperer/main.py"
+      }
+    ],
+    "modified_files": [],
+    "untracked_files": [],
+    "has_changes": true
+  },
+  "stash_count": 0,
+  "remote_branches": [
+    "origin/main"
+  ],
+  "operation_context": "increment_to_1.0.0-alpha.1",
+  "backup_id": "backup_20250716_143902"
+}

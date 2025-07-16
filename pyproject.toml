@@ -1,6 +1,6 @@
 [project]
 name = "cli-whisperer"
-version = "1.0.0"
+version = "1.0.0-alpha.1"
 description = "Voice to Text Tool with Smart File Management and OpenAI Formatting"
 readme = "README.md"
 authors = [

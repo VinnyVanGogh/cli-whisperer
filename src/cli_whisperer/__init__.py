@@ -9,5 +9,5 @@ and manages transcript files with intelligent rotation and cleanup.
 from .cli import CLIApplication
 from .main import main
 
-__version__ = "0.1.0"
+__version__ = "1.0.0"
 __all__ = ["CLIApplication", "main"]
