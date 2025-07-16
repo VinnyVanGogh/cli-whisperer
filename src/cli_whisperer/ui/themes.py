@@ -81,7 +81,6 @@ AudioLevelMeter {
     border-title-color: #FF00A0;
     content-align: center middle;
     color: #ffffff;
-    line-height: 1.2;
     padding: 0 1;
 }
 
@@ -173,7 +172,6 @@ ActionsPanel {
     width: 30;
     border: none;
     margin: 0 1 0 0;
-    line-height: 1.2;
     padding: 0 1;
 }
 
@@ -230,7 +228,7 @@ ActionsPanel {
     align: center middle;
     height: 3;
     margin: 0 1;
-    spacing: 1;
+    padding: 1;
 }
 
 .spotify-btn {
@@ -403,7 +401,6 @@ AudioLevelMeter {
     border-title-color: #00F0FF;
     content-align: center middle;
     color: #ffffff;
-    line-height: 1.2;
     padding: 0 1;
 }
 
@@ -496,7 +493,6 @@ ActionsPanel {
     width: 30;
     border: none;
     margin: 0 1 0 0;
-    line-height: 1.2;
     padding: 0 1;
 }
 
@@ -553,7 +549,7 @@ ActionsPanel {
     align: center middle;
     height: 3;
     margin: 0 1;
-    spacing: 1;
+    padding: 1;
 }
 
 .spotify-btn {
@@ -726,7 +722,6 @@ AudioLevelMeter {
     border-title-color: #1E90FF;
     content-align: center middle;
     color: #ffffff;
-    line-height: 1.2;
     padding: 0 1;
 }
 
@@ -818,7 +813,6 @@ ActionsPanel {
     width: 30;
     border: none;
     margin: 0 1 0 0;
-    line-height: 1.2;
     padding: 0 1;
 }
 
@@ -875,7 +869,7 @@ ActionsPanel {
     align: center middle;
     height: 3;
     margin: 0 1;
-    spacing: 1;
+    padding: 1;
 }
 
 .spotify-btn {
@@ -1048,7 +1042,6 @@ AudioLevelMeter {
     border-title-color: #8B9DC3;
     content-align: center middle;
     color: #F8F8FF;
-    line-height: 1.2;
     padding: 0 1;
 }
 
@@ -1140,7 +1133,6 @@ ActionsPanel {
     width: 30;
     border: none;
     margin: 0 1 0 0;
-    line-height: 1.2;
     padding: 0 1;
 }
 
@@ -1197,7 +1189,7 @@ ActionsPanel {
     align: center middle;
     height: 3;
     margin: 0 1;
-    spacing: 1;
+    padding: 1;
 }
 
 .spotify-btn {
@@ -1370,7 +1362,6 @@ AudioLevelMeter {
     border-title-color: #2563EB;
     content-align: center middle;
     color: #111827;
-    line-height: 1.2;
     padding: 0 1;
 }
 
@@ -1462,7 +1453,6 @@ ActionsPanel {
     width: 30;
     border: none;
     margin: 0 1 0 0;
-    line-height: 1.2;
     padding: 0 1;
 }
 
@@ -1519,7 +1509,7 @@ ActionsPanel {
     align: center middle;
     height: 3;
     margin: 0 1;
-    spacing: 1;
+    padding: 1;
 }
 
 .spotify-btn {
@@ -1692,7 +1682,6 @@ AudioLevelMeter {
     border-title-color: #FFFFFF;
     content-align: center middle;
     color: #F9FAFB;
-    line-height: 1.2;
     padding: 0 1;
 }
 
@@ -1785,7 +1774,6 @@ ActionsPanel {
     width: 30;
     border: none;
     margin: 0 1 0 0;
-    line-height: 1.2;
     padding: 0 1;
 }
 
@@ -1842,7 +1830,7 @@ ActionsPanel {
     align: center middle;
     height: 3;
     margin: 0 1;
-    spacing: 1;
+    padding: 1;
 }
 
 .spotify-btn {
@@ -2015,7 +2003,6 @@ AudioLevelMeter {
     border-title-color: #FF0080;
     content-align: center middle;
     color: #ffffff;
-    line-height: 1.2;
     padding: 0 1;
 }
 
@@ -2108,7 +2095,6 @@ ActionsPanel {
     width: 30;
     border: none;
     margin: 0 1 0 0;
-    line-height: 1.2;
     padding: 0 1;
 }
 
@@ -2165,7 +2151,7 @@ ActionsPanel {
     align: center middle;
     height: 3;
     margin: 0 1;
-    spacing: 1;
+    padding: 1;
 }
 
 .spotify-btn {
@@ -2338,7 +2324,6 @@ AudioLevelMeter {
     border-title-color: #FF6B9D;
     content-align: center middle;
     color: #FBBF24;
-    line-height: 1.2;
     padding: 0 1;
 }
 
@@ -2431,7 +2416,6 @@ ActionsPanel {
     width: 30;
     border: none;
     margin: 0 1 0 0;
-    line-height: 1.2;
     padding: 0 1;
 }
 
@@ -2488,7 +2472,7 @@ ActionsPanel {
     align: center middle;
     height: 3;
     margin: 0 1;
-    spacing: 1;
+    padding: 1;
 }
 
 .spotify-btn {

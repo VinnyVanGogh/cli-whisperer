@@ -1,10 +1,10 @@
 [project]
 name = "cli-whisperer"
-version = "0.2.5"
+version = "1.0.0"
 description = "Voice to Text Tool with Smart File Management and OpenAI Formatting"
 readme = "README.md"
 authors = [
-    { name = "VinnyVanGogh", email = "133192356+VinnyVanGogh@users.noreply.github.com" }
+    { name = "VinnyVanGogh", email = "133192356+VinnyVanGogh@users.noreply.github.com" },
 ]
 requires-python = ">=3.10"
 dependencies = [
@@ -27,5 +27,7 @@ dependencies = [
 cli-whisperer = "cli_whisperer.main:main"
 
 [build-system]
-requires = ["hatchling"]
+requires = [
+    "hatchling",
+]
 build-backend = "hatchling.build"

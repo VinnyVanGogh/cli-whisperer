@@ -11,3 +11,6 @@ wheels/
 transcription*.txt
 transcripts/
 local_dev/
+
+# git-simplifier state files
+.git-simplifier/

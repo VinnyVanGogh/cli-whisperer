@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-07-16T11:59:35.889361",
+  "current_branch": "main",
+  "commit_hash": "7389c60a232dbfb38700da1e47acbb1e6b2bdb6b",
+  "tags": [
+    "v0.2.5"
+  ],
+  "uncommitted_changes": {
+    "staged_files": [],
+    "modified_files": [
+      {
+        "status": "M",
+        "file": ".gitignore"
+      },
+      {
+        "status": "M",
+        "file": "src/cli_whisperer/ui/textual_app.py"
+      },
+      {
+        "status": "M",
+        "file": "src/cli_whisperer/ui/themes.py"
+      }
+    ],
+    "untracked_files": [],
+    "has_changes": true
+  },
+  "stash_count": 0,
+  "remote_branches": [
+    "origin/main"
+  ],
+  "operation_context": "increment_to_1.0.0",
+  "backup_id": "backup_20250716_115935"
+}

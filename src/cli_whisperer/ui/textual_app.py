@@ -2156,7 +2156,7 @@ class CLIWhispererTUI(App):
     .export-row {
         height: 3;
         margin: 0 0 1 0;
-        align-items: center;
+        align: center middle;
     }
     
     .export-label {
