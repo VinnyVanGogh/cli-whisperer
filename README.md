@@ -1,4 +1,4 @@
-# <� CLI Whisperer
+# CLI Whisperer
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?style=for-the-badge&logo=python&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-Whisper-412991.svg?style=for-the-badge&logo=openai&logoColor=white)
@@ -9,71 +9,71 @@
 
 A professional **voice-to-text** terminal user interface (TUI) application that combines the power of OpenAI's Whisper for speech recognition with GPT for intelligent text formatting. Features a modern, responsive interface with comprehensive export capabilities, Spotify integration, and advanced recording controls.
 
-## ( Features
+## Features
 
-### <� **Audio & Recording**
+### Audio & Recording
 - **High-quality audio recording** with configurable duration (15s - 5min+)
 - **Real-time audio level meter** with waveform visualization
 - **Adjustable recording controls** with preset duration buttons
 - **Graceful recording management** with manual stop capability
 - **Minimum recording length validation** for quality assurance
 
-### > **AI-Powered Transcription**
+### AI-Powered Transcription
 - **OpenAI Whisper integration** for accurate speech-to-text
 - **Multiple Whisper model support** (tiny, base, small, medium, large)
 - **Intelligent text formatting** with OpenAI GPT models
 - **Dual transcription modes** - raw and AI-enhanced text
 - **Comprehensive error handling** with fallback mechanisms
 
-### <� **Modern TUI Interface**
+### Modern TUI Interface
 - **8 professional themes** (EDM Synthwave, Cyberpunk, Marc Anthony, Professional, etc.)
 - **Responsive design** optimized for all terminal sizes
 - **Tabbed interface** with smooth navigation
 - **Real-time status updates** and progress indicators
 - **Pulse animations** and visual feedback systems
 
-### <� **Spotify Integration**
+### Spotify Integration
 - **Playback control** (play/pause, next/previous, shuffle, repeat)
 - **Real-time status display** with track information
 - **Interactive controls** directly in the TUI
 - **Smart auto-pause** during recording sessions
 
-### =� **Advanced Export System**
+### Advanced Export System
 - **6 export formats**: TXT, Markdown, JSON, CSV, DOCX, PDF
 - **Batch export capabilities** for all transcriptions
 - **Filtering options** by date, directory, and text content
 - **Metadata inclusion** with timestamps and file paths
 - **Custom output locations** and file naming
 
-### ( **Comprehensive Keyboard Shortcuts**
+### Comprehensive Keyboard Shortcuts
 - **38 keyboard shortcuts** for all major functions
 - **Power-user optimized** workflow
 - **Intuitive key bindings** following standard conventions
 - **Context-sensitive help** system
 
-### =� **File Management**
+### File Management
 - **Intelligent file organization** with automatic rotation
 - **History tracking** with searchable database
 - **Directory-aware storage** with working directory tracking
 - **Automatic cleanup** of old files
 - **Backup and recovery** systems
 
-## =� Table of Contents
+## Table of Contents
 
-- [Installation](#-installation)
-- [Quick Start](#-quick-start)
-- [Usage](#-usage)
-- [Keyboard Shortcuts](#-keyboard-shortcuts)
-- [Configuration](#-configuration)
-- [Export Functionality](#-export-functionality)
-- [Themes](#-themes)
-- [Development](#-development)
-- [API Reference](#-api-reference)
-- [Troubleshooting](#-troubleshooting)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Usage](#usage)
+- [Keyboard Shortcuts](#keyboard-shortcuts)
+- [Configuration](#configuration)
+- [Export Functionality](#export-functionality)
+- [Themes](#themes)
+- [Development](#development)
+- [API Reference](#api-reference)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
 
-## =� Installation
+## Installation
 
 ### Prerequisites
 
@@ -124,7 +124,7 @@ sudo apt-get install portaudio19-dev python3-pyaudio
 # PortAudio will be installed automatically
 ```
 
-## <� Quick Start
+## Quick Start
 
 ### 1. Basic Recording
 
@@ -159,7 +159,7 @@ export OPENAI_API_KEY="your-api-key-here"
 cli-whisperer --output-dir ~/Documents/transcripts
 ```
 
-## =� Usage
+## Usage
 
 ### Command Line Interface
 
@@ -187,7 +187,7 @@ Options:
 #### Recording Controls
 - **Record Button**: Start recording session
 - **Stop Button**: End recording early
-- **Duration Controls**: Adjust recording time (�15s increments)
+- **Duration Controls**: Adjust recording time (±15s increments)
 - **Preset Buttons**: Quick duration selection (30s, 1m, 2m, 5m)
 
 #### Real-time Feedback
@@ -200,7 +200,7 @@ Options:
 - **Copy Functions**: One-click copying to clipboard
 - **Edit Integration**: Direct Neovim editing support
 
-## ( Keyboard Shortcuts
+## Keyboard Shortcuts
 
 ### Core Actions
 | Key | Action | Description |
@@ -259,7 +259,7 @@ Options:
 | `Ctrl+R` | Reload Config | Reload configuration |
 | `Ctrl+Shift+T` | Switch Theme | Cycle through themes |
 
-## � Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -285,13 +285,13 @@ The application uses the following configuration structure:
 
 ```
 ~/.config/cli-whisperer/
-   config.yaml          # Main configuration
-   themes/              # Custom themes
-      custom.css
-      user-theme.css
-   history/             # History database
-       history.json
-       backups/
+├── config.yaml          # Main configuration
+├── themes/              # Custom themes
+│   ├── custom.css
+│   └── user-theme.css
+└── history/             # History database
+    ├── history.json
+    └── backups/
 ```
 
 ### Custom Themes
@@ -313,7 +313,7 @@ RecordingControls {
 }
 ```
 
-## =� Export Functionality
+## Export Functionality
 
 ### Supported Formats
 
@@ -329,11 +329,11 @@ RecordingControls {
 ### Export Options
 
 #### Content Selection
--  **Raw transcription text**
--  **AI-formatted text**
--  **Timestamps and metadata**
--  **File paths and working directory**
--  **Recording duration and model info**
+- **Raw transcription text**
+- **AI-formatted text**
+- **Timestamps and metadata**
+- **File paths and working directory**
+- **Recording duration and model info**
 
 #### Filtering (History Export)
 - **Date Range**: Export transcriptions from specific time periods
@@ -354,7 +354,7 @@ Ctrl+E  # Interactive format selection
 Ctrl+Shift+E  # Full export dialog with filtering
 ```
 
-## <� Themes
+## Themes
 
 ### Built-in Themes
 
@@ -380,38 +380,38 @@ T                    # Open themes tab
 Ctrl+Shift+T        # Quick theme cycle
 ```
 
-## =' Development
+## Development
 
 ### Project Structure
 
 ```
 cli-whisperer/
-   src/cli_whisperer/
-      core/                 # Core functionality
-         audio_recorder.py # Audio recording and processing
-         transcriber.py    # Whisper integration
-         formatter.py      # OpenAI text formatting
-         file_manager.py   # File operations
-      integrations/         # External integrations
-         spotify_control.py # Spotify API integration
-         clipboard.py      # System clipboard
-      ui/                   # User interface
-         textual_app.py    # Main TUI application
-         themes.py         # Theme system
-         export_dialog.py  # Export dialogs
-         edit_manager.py   # Neovim integration
-      utils/                # Utilities
-         config.py         # Configuration management
-         logger.py         # Logging system
-         history.py        # History management
-         export_manager.py # Export functionality
-      cli.py                # CLI interface
-      main.py               # Entry point
-   tests/                    # Test suite
-      test_export_manager.py
-      ...
-   pyproject.toml           # Project configuration
-   README.md               # This file
+├── src/cli_whisperer/
+│   ├── core/                 # Core functionality
+│   │   ├── audio_recorder.py # Audio recording and processing
+│   │   ├── transcriber.py    # Whisper integration
+│   │   ├── formatter.py      # OpenAI text formatting
+│   │   └── file_manager.py   # File operations
+│   ├── integrations/         # External integrations
+│   │   ├── spotify_control.py # Spotify API integration
+│   │   └── clipboard.py      # System clipboard
+│   ├── ui/                   # User interface
+│   │   ├── textual_app.py    # Main TUI application
+│   │   ├── themes.py         # Theme system
+│   │   ├── export_dialog.py  # Export dialogs
+│   │   └── edit_manager.py   # Neovim integration
+│   ├── utils/                # Utilities
+│   │   ├── config.py         # Configuration management
+│   │   ├── logger.py         # Logging system
+│   │   ├── history.py        # History management
+│   │   └── export_manager.py # Export functionality
+│   ├── cli.py                # CLI interface
+│   └── main.py               # Entry point
+├── tests/                    # Test suite
+│   ├── test_export_manager.py
+│   └── ...
+├── pyproject.toml           # Project configuration
+└── README.md               # This file
 ```
 
 ### Development Setup
@@ -464,7 +464,7 @@ flake8 src/ tests/
 pre-commit run --all-files
 ```
 
-## =� API Reference
+## API Reference
 
 ### Core Classes
 
@@ -542,7 +542,7 @@ theme_manager.set_theme("professional")
 css = theme_manager.get_current_theme().css
 ```
 
-## = Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -624,7 +624,7 @@ tail -f ~/.local/share/cli-whisperer/logs/cli-whisperer.log
 tail -f ~/.local/share/cli-whisperer/logs/debug.log
 ```
 
-## > Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
@@ -658,30 +658,26 @@ When reporting issues, please include:
 - **Expected vs actual behavior**
 - **Log files** if applicable
 
-## =� License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## =O Acknowledgments
+## Acknowledgments
 
 - **OpenAI** for the Whisper and GPT models
 - **Textual** for the excellent TUI framework
 - **Python Community** for the amazing ecosystem
 - **All contributors** who have helped improve this project
 
-## =� Support
+## Support
 
-- =� **Email**: [133192356+VinnyVanGogh@users.noreply.github.com]
-- = **Issues**: [GitHub Issues](https://github.com/VinnyVanGogh/cli-whisperer/issues)
-- =� **Documentation**: [Project Wiki](https://github.com/VinnyVanGogh/cli-whisperer/wiki)
+- Email: [133192356+VinnyVanGogh@users.noreply.github.com]
+- Issues: [GitHub Issues](https://github.com/VinnyVanGogh/cli-whisperer/issues)
+- Documentation: [Project Wiki](https://github.com/VinnyVanGogh/cli-whisperer/wiki)
 
 ---
 
-<p align="center">
-  <b>Made with d by VinnyVanGogh</b><br>
-  <i>Transforming voice to text with style and intelligence</i>
-</p>
+**Made with ❤️ by VinnyVanGogh**  
+*Transforming voice to text with style and intelligence*
 
-<p align="center">
-  <a href="#-cli-whisperer"> Back to Top</a>
-</p>
+[⬆️ Back to Top](#cli-whisperer)
